@@ -6,6 +6,8 @@ document.body.style.backgroundColor = "hotpink";
 
 document.body.style.backgroundColor = "rgb(173,216,230)";
 
-for (let child of body) {
-    console.log(child)
-} //?
+for (let node of document.body.childNodes) {
+    console.log(node);
+}
+
+
